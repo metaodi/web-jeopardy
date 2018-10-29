@@ -9,7 +9,7 @@ $.urlParam = function(name){
 }
 
 // Fetch JSON to build game HTML.
-$.getJSON($.urlParam('file') || 'jeopardy-data.json')
+$.getJSON($.urlParam('file') || 'data/json/jeopardy-data.json')
   .done(function (data) {
     console.log(data)
     var column_width = new String(12 / data.length).replace(".", "-")
