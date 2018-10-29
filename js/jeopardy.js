@@ -1,3 +1,4 @@
+// URL parameter helper.
 $.urlParam = function(name){
   var results = new RegExp('[\?&]' + name + '=([^&#]*)').exec(window.location.href);
   if(results) {
@@ -7,7 +8,8 @@ $.urlParam = function(name){
   }
 }
 
-$.getJSON($.urlParam('file') || 'jeopardy-data-en.json')
+// Fetch JSON to build game HTML.
+$.getJSON($.urlParam('file') || 'jeopardy-data.json')
   .done(function (data) {
     console.log(data)
     var column_width = new String(12 / data.length).replace(".", "-")
