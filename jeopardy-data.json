@@ -6,22 +6,22 @@
       {
         "label": "100",
         "q": "Question 1",
-        "a": "answers/en/history/hackweek.html"
+        "a": "answers/games/template/category_1/answer_1.html"
       },
       {
         "label": "200",
         "q": "Question 2",
-        "a": "answers/en/history/suse.html"
+        "a": "answers/games/template/category_1/answer_2.html"
       },
       {
         "label": "300",
         "q": "Question 3",
-        "a": "answers/en/history/susecon.html"
+        "a": "answers/games/template/category_1/answer_3.html"
       },
       {
         "label": "400",
         "q": "Question 4",
-        "a": "answers/en/history/microfocus.html"
+        "a": "answers/games/template/category_1/answer_4.html"
       }
     ]
   },
@@ -32,22 +32,22 @@
       {
         "label": "100",
         "q": "Question 1",
-        "a": "answers/en/products/opensuse.html"
+        "a": "answers/games/template/category_2/answer_1.html"
       },
       {
         "label": "200",
         "q": "Question 2",
-        "a": "answers/en/products/obs.html"
+        "a": "answers/games/template/category_2/answer_2.html"
       },
       {
         "label": "300",
         "q": "Question 3",
-        "a": "answers/en/products/openqa.html"
+        "a": "answers/games/template/category_2/answer_3.html"
       },
       {
         "label": "400",
         "q": "Question 4",
-        "a": "answers/en/products/sles.html"
+        "a": "answers/games/template/category_2/answer_4.html"
       }
     ]
   },
@@ -55,25 +55,25 @@
     "name": "Category 3",
     "description": "Category 3 Description",
     "questions": [
-      {
+     {
         "label": "100",
         "q": "Question 1",
-        "a": "answers/en/fun/chameleon.html"
+        "a": "answers/games/template/category_3/answer_1.html"
       },
       {
         "label": "200",
         "q": "Question 2",
-        "a": "answers/en/fun/tux.html"
+        "a": "answers/games/template/category_3/answer_2.html"
       },
       {
         "label": "300",
         "q": "Question 3",
-        "a": "answers/en/fun/42.html"
+        "a": "answers/games/template/category_3/answer_3.html"
       },
       {
         "label": "400",
         "q": "Question 4",
-        "a": "answers/en/fun/git.html"
+        "a": "answers/games/template/category_3/answer_4.html"
       }
     ]
   },
@@ -81,25 +81,25 @@
     "name": "Category 4",
     "description": "Category 4 Description",
     "questions": [
-      {
+     {
         "label": "100",
         "q": "Question 1",
-        "a": "answers/en/people/linus.html"
+        "a": "answers/games/template/category_4/answer_1.html"
       },
       {
         "label": "200",
         "q": "Question 2",
-        "a": "answers/en/people/stallman.html"
+        "a": "answers/games/template/category_4/answer_2.html"
       },
       {
         "label": "300",
         "q": "Question 3",
-        "a": "answers/en/people/tanenbaum.html"
+        "a": "answers/games/template/category_4/answer_3.html"
       },
       {
         "label": "400",
         "q": "Question 4",
-        "a": "answers/en/people/founder.html"
+        "a": "answers/games/template/category_4/answer_4.html"
       }
     ]
   }
