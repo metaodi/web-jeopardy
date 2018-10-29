@@ -7,7 +7,7 @@ $.urlParam = function(name){
   }
 }
 
-$.getJSON($.urlParam('file') || 'jeopardy-data-de.json')
+$.getJSON($.urlParam('file') || 'jeopardy-data-en.json')
   .done(function (data) {
     console.log(data)
     var column_width = new String(12 / data.length).replace(".", "-")
@@ -40,7 +40,7 @@ $(document).on('click', '.question', function(){
   console.log($(this).data('question'))
   $( this ).removeClass('btn-success')
   $( this ).addClass('btn-secondary')
-  $('#question-modal').find('.modal-frage').html($(this).data('question'))
+  $('#question-modal').find('.modal-question').html($(this).data('question'))
   if ($(this).data('answer').includes('.html')) {
     $('#answer-modal').find('.modal-body').load($(this).data('answer'))
   } else {
@@ -52,6 +52,6 @@ $(document).on('click', '#answer-modal', function(){
   $("#answer-modal").modal('hide')
 })
 
-$(document).on('click', '#frage-weiter', function(){
+$(document).on('click', '#question-continue', function(){
   $("#question-modal").modal('hide')
 })

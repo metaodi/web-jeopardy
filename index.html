@@ -1,83 +1,79 @@
 <!doctype html>
-<html class="no-js" lang="">
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>SUSE Jeopardy</title>
-        <meta name="description" content="">
+        <title>Web Jeopardy</title>
+        <meta name="description" content="Web Jeopardy">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <!-- Vendor CSS -->
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+
+        <!-- App CSS -->
         <link rel="stylesheet" href="css/main.css">
 
+        <!-- Vendor JS -->
         <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
     </head>
     <body>
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-            <h3>SUSE Web Jeopardy</h3>
+      <!-- Navigtion -->
+      <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+          <div class="navbar-header">
+              <h3>Web Jeopardy</h3>
+          </div>
         </div>
-      </div>
-    </nav>
-
+      </nav>
+    <!-- Page container -->
     <div class="container">
-      <!-- Example row of columns -->
+      <!-- Main game board -->
       <div class="row" id="category-container">
-
         <div class="category hidden">
           <h2 class="category-heading">Category heading</h2>
           <p class="category-desc">Category description</p>
           <button class="btn btn-lg question hidden btn-success" data-toggle="modal" data-target="#question-modal"><b>Label</b></button>
         </div>
-
       </div>
-
-
-    <!-- Frage Modal -->
-    <div class="modal fade" id="question-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" id="question-modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          </div>
-          <div class="modal-body modal-frage">
-            Frage
-          </div>
-          <div class="modal-footer">
-            <button type="button" id="frage-weiter" class="btn btn-success btn-lg" data-toggle="modal" data-target="#answer-modal">Antwort</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <!-- Antwort Modal -->
-    <div class="modal fade" id="answer-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-        <div class="modal-dialog" id="answer-modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                </div>
-                <div class="modal-body modal-antwort">
-                    Antwort
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-lg btn-success" id="antwort-close">Weiter</button>
-                </div>
+      <!-- Question Modal -->
+      <div class="modal fade" id="question-modal" tabindex="-1" role="dialog" aria-labelledby="questionModalLabel">
+        <div class="modal-dialog" id="question-modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             </div>
+            <div class="modal-body modal-question">
+              Question
+            </div>
+            <div class="modal-footer">
+              <button type="button" id="question-continue" class="btn btn-success btn-lg" data-toggle="modal" data-target="#answer-modal">Answer</button>
+            </div>
+          </div>
         </div>
-    </div>
-
-
+      </div>
+      <!-- Answer Modal -->
+      <div class="modal fade" id="answer-modal" tabindex="-1" role="dialog" aria-labelledby="answerModalLabel">
+          <div class="modal-dialog" id="answer-modal-dialog" role="document">
+              <div class="modal-content">
+                  <div class="modal-header">
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="modal-body modal-answer">
+                      Answer
+                  </div>
+                  <div class="modal-footer">
+                      <button type="button" class="btn btn-lg btn-success" id="answer-close">Close</button>
+                  </div>
+              </div>
+          </div>
+      </div>
       <hr>
-
-      <footer>
-      </footer>
+      <!-- Footer -->
+      <footer></footer>
     </div> <!-- /container -->
     <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/jeopardy.js"></script>
-    </body>
+  </body>
 </html>

@@ -40,21 +40,21 @@ button.question {
     min-height: 50px;
 }
 
-.modal-frage, .modal-antwort {
+.modal-question, .modal-answer {
     font-size: 30px;
     text-align: center;
     font-weight: bold;
 }
 
-.modal-antwort > h1 {
+.modal-answer > h1 {
     font-weight: bold;
 }
 
-.modal-antwort > img {
+.modal-answer > img {
     margin: 15px;
 }
 
-.modal-frage > pre, .modal-antwort > pre {
+.modal-question > pre, .modal-answer > pre {
     font-size: inherit;
     margin: 30px;
     font-weight: bold;
@@ -72,20 +72,3 @@ button.question {
 #answer-modal-dialog {
     width: 1200px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
