@@ -1,3 +1,4 @@
+/* Original forked CSS */
 html {
     overflow-y: scroll;
 }
@@ -11,13 +12,6 @@ body {
     color: #fff;
     text-align: center;
     width: 100%;
-}
-
-.col-md-2-4 {
-    width: 20%;
-    float: left;
-    padding-left: 5px;
-    padding-right: 5px;
 }
 
 .category {
@@ -34,7 +28,6 @@ button.question {
     position: absolute;
     overflow: inherit;
 }
-
 
 .modal-header {
     min-height: 50px;
@@ -71,4 +64,35 @@ button.question {
 
 #answer-modal-dialog {
     width: 1200px;
+}
+
+/* New CSS */
+.category button {
+    height: 100px;
+    font-size: 50px;
+}
+
+.category.category__0 button {
+    background: #009BA7;
+    border-color: #009BA7;
+}
+
+.category.category__1 button {
+    background: #98C21F;
+    border-color: #98C21F;
+}
+
+.category.category__2 button {
+    background: #019CDB;
+    border-color: #019CDB;
+}
+
+.category.category__3 button {
+    background: #DBE200;
+    border-color: #DBE200;
+}
+
+.category .btn-secondary {
+    background: #ebebeb !important;
+    border-color: #adadad !important;
 }

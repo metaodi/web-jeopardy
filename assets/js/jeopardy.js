@@ -11,7 +11,9 @@ $.urlParam = function(name){
 // Fetch JSON to build game HTML.
 $.getJSON($.urlParam('file') || 'data/json/jeopardy-data.json')
   .done(function (data) {
+
     console.log(data)
+
     var column_width = new String(12 / data.length).replace(".", "-")
     $.each(data, function (id, category) {
       console.log(category)
@@ -19,6 +21,7 @@ $.getJSON($.urlParam('file') || 'data/json/jeopardy-data.json')
       category_div.hide()
       category_div.removeClass('hidden')
       category_div.addClass('col-md-' + column_width)
+      category_div.addClass('category__' + id)
       category_div.appendTo("#category-container")
       category_div.find(".category-heading").html(category['name'])
       category_div.find(".category-desc").html(category['description'])
