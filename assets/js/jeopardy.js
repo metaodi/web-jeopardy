@@ -11,12 +11,8 @@ $.urlParam = function(name){
 // Fetch JSON to build game HTML.
 $.getJSON($.urlParam('file') || 'data/json/jeopardy-data.json')
   .done(function (data) {
-
-    console.log(data)
-
     var column_width = new String(12 / data.length).replace(".", "-")
     $.each(data, function (id, category) {
-      console.log(category)
       category_div = $('.category').first().clone()
       category_div.hide()
       category_div.removeClass('hidden')
@@ -28,7 +24,6 @@ $.getJSON($.urlParam('file') || 'data/json/jeopardy-data.json')
       category_div.fadeIn()
 
       $.each(category['questions'], function (id, question) {
-        console.log(question)
         question_div = category_div.find('.question').first().clone()
         question_div.hide()
         question_div.removeClass('hidden')
@@ -60,3 +55,11 @@ $(document).on('click', '#answer-modal', function(){
 $(document).on('click', '#question-continue', function(){
   $("#question-modal").modal('hide')
 })
+
+$(document).ready(function() {
+    var audioElement = document.createElement('audio');
+    audioElement.setAttribute('src', 'assets/audio/question_button.mp3');    
+    $('button.question').click(function() {
+        audioElement.play();
+    });
+});
