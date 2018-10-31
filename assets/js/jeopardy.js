@@ -69,12 +69,16 @@ $(document).ready(function() {
 
     // This should be refactored but oh well.
     $('.category__normal button.question').click(function() {
+        console.log('play normal mp3');
         normalAudioElement.setAttribute('src', 'assets/audio/question_button.mp3'); 
+        normalAudioElement.setAttribute('type', 'audio/mp3');
         normalAudioElement.play();
     });
 
     $('.category__lightning button.question').click(function() {
+        console.log('play lightning mp3');
         lightningAudioElement.setAttribute('src', 'assets/audio/lightning_round.mp3'); 
+        normalAudioElement.setAttribute('type', 'audio/mp3');
         lightningAudioElement.play();
     });
 });
