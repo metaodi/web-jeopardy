@@ -23,6 +23,13 @@ $.getJSON($.urlParam('file') || 'data/json/jeopardy-data.json')
       category_div.find(".category-desc").html(category['description'])
       category_div.fadeIn()
 
+      // Set lightning round class.
+      if (id < 3) {
+        category_div.addClass('category__normal');
+      } else {
+        category_div.addClass('category__lightning');
+      }
+
       $.each(category['questions'], function (id, question) {
         question_div = category_div.find('.question').first().clone()
         question_div.hide()
@@ -57,9 +64,17 @@ $(document).on('click', '#question-continue', function(){
 })
 
 $(document).ready(function() {
-    var audioElement = document.createElement('audio');
-    audioElement.setAttribute('src', 'assets/audio/question_button.mp3');    
-    $('button.question').click(function() {
-        audioElement.play();
+    var normalAudioElement = document.createElement('audio');
+    var lightningAudioElement = document.createElement('audio');
+
+    // This should be refactored but oh well.
+    $('.category__normal button.question').click(function() {
+        normalAudioElement.setAttribute('src', 'assets/audio/question_button.mp3'); 
+        normalAudioElement.play();
+    });
+
+    $('.category__lightning button.question').click(function() {
+        lightningAudioElement.setAttribute('src', 'assets/audio/lightning_round.mp3'); 
+        lightningAudioElement.play();
     });
 });
