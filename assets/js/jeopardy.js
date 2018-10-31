@@ -8,26 +8,6 @@ $.urlParam = function(name){
   }
 }
 
-$(document).ready(function() {
-    var normalAudioElement = document.createElement('audio');
-    var lightningAudioElement = document.createElement('audio');
-
-    // This should be refactored but oh well.
-    $('.category__normal button.question').on('click', function() {
-        console.log('play normal mp3');
-        normalAudioElement.setAttribute('src', 'assets/audio/question_button.mp3'); 
-        normalAudioElement.setAttribute('type', 'audio/mp3');
-        normalAudioElement.play();
-    });
-
-    $('.category__lightning button.question').on('click', function() {
-        console.log('play lightning mp3');
-        lightningAudioElement.setAttribute('src', 'assets/audio/lightning_round.mp3'); 
-        normalAudioElement.setAttribute('type', 'audio/mp3');
-        lightningAudioElement.play();
-    });
-});
-
 // Fetch JSON to build game HTML.
 $.getJSON($.urlParam('file') || 'data/json/jeopardy-data.json')
   .done(function (data) {
@@ -65,6 +45,14 @@ $.getJSON($.urlParam('file') || 'data/json/jeopardy-data.json')
 
 $(document).on('click', '.question', function(){
   console.log($(this).data('question'));
+
+  // Play correct audio.
+  if ($(this).parent().hasClass('category__normal')) {
+    new Audio('assets/audio/question_button.mp3').play();
+  } else {
+    new Audio('assets/audio/lightning_round.mp3').play();
+  }
+
   $( this ).removeClass('btn-success');
   $( this ).addClass('btn-secondary');
   $('#question-modal').find('.modal-question').html($(this).data('question'));
