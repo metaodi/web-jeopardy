@@ -6,22 +6,27 @@
       {
         "label": "100",
         "q": "Question 1",
-        "a": "data/answers/games/template/category_1/answer_1.html"
+        "a": "data/answers/games/marie-1/see/antwort_1.html"
       },
       {
         "label": "200",
         "q": "Question 2",
-        "a": "data/answers/games/template/category_1/answer_2.html"
+        "a": "data/answers/games/marie-1/see/antwort_2.html"
       },
       {
         "label": "300",
         "q": "Question 3",
-        "a": "data/answers/games/template/category_1/answer_3.html"
+        "a": "data/answers/games/marie-1/see/antwort_3.html"
       },
       {
         "label": "400",
         "q": "Question 4",
-        "a": "data/answers/games/template/category_1/answer_4.html"
+        "a": "data/answers/games/marie-1/see/antwort_4.html"
+      },
+      {
+        "label": "500",
+        "q": "Question 5",
+        "a": "data/answers/games/marie-1/see/antwort_5.html"
       }
     ]
   },
@@ -32,22 +37,27 @@
       {
         "label": "100",
         "q": "Question 1",
-        "a": "data/answers/games/template/category_2/answer_1.html"
+        "a": "data/answers/games/marie-1/refit/antwort_1.html"
       },
       {
         "label": "200",
         "q": "Question 2",
-        "a": "data/answers/games/template/category_2/answer_2.html"
+        "a": "data/answers/games/marie-1/refit/antwort_2.html"
       },
       {
         "label": "300",
         "q": "Question 3",
-        "a": "data/answers/games/template/category_2/answer_3.html"
+        "a": "data/answers/games/marie-1/refit/antwort_3.html"
       },
       {
         "label": "400",
         "q": "Question 4",
-        "a": "data/answers/games/template/category_2/answer_4.html"
+        "a": "data/answers/games/marie-1/refit/antwort_4.html"
+      },
+      {
+        "label": "500",
+        "q": "Question 5",
+        "a": "data/answers/games/marie-1/refit/antwort_5.html"
       }
     ]
   },
@@ -58,48 +68,58 @@
      {
         "label": "100",
         "q": "Question 1",
-        "a": "data/answers/games/template/category_3/answer_1.html"
+        "a": "data/answers/games/marie-1/buero/antwort_1.html"
       },
       {
         "label": "200",
         "q": "Question 2",
-        "a": "data/answers/games/template/category_3/answer_2.html"
+        "a": "data/answers/games/marie-1/buero/antwort_2.html"
       },
       {
         "label": "300",
         "q": "Question 3",
-        "a": "data/answers/games/template/category_3/answer_3.html"
+        "a": "data/answers/games/marie-1/buero/antwort_3.html"
       },
       {
         "label": "400",
         "q": "Question 4",
-        "a": "data/answers/games/template/category_3/answer_4.html"
+        "a": "data/answers/games/marie-1/buero/antwort_4.html"
+      },
+      {
+        "label": "500",
+        "q": "Question 5",
+        "a": "data/answers/games/marie-1/buero/antwort_5.html"
       }
     ]
   },
   {
     "name": "Harry fahr schon mal den Besen vor",
-    "description": "Zauberer, Hogwarts, magische Wesen",
+    "description": "Zauberer, Hogwarts und magische Wesen",
     "questions": [
      {
         "label": "100",
-        "q": "Question 1",
-        "a": "data/answers/games/template/category_4/answer_1.html"
+        "q": "Der «Blick» unter den magischen Tageszeitungen.",
+        "a": "data/answers/games/marie-1/harry_potter/antwort_1.html"
       },
       {
         "label": "200",
         "q": "Question 2",
-        "a": "data/answers/games/template/category_4/answer_2.html"
+        "a": "data/answers/games/marie-1/harry_potter/antwort_2.html"
       },
       {
         "label": "300",
         "q": "Question 3",
-        "a": "data/answers/games/template/category_4/answer_3.html"
+        "a": "data/answers/games/marie-1/harry_potter/antwort_3.html"
       },
       {
         "label": "400",
         "q": "Question 4",
-        "a": "data/answers/games/template/category_4/answer_4.html"
+        "a": "data/answers/games/marie-1/harry_potter/antwort_4.html"
+      },
+      {
+        "label": "500",
+        "q": "Question 5",
+        "a": "data/answers/games/marie-1/harry_potter/antwort_5.html"
       }
     ]
   }
