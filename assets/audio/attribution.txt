@@ -1,0 +1,10 @@
+failjingle.ogg [1] is by Tobiasz 'unfa' Karoń [2] and is licensed under CC BY 3.0 [3]
+correct_beep.wav [4] is from JapanYoshiTheGamer [5] under CC-0 [6]
+
+[1] http://www.freesound.org/people/unfa/sounds/181351/
+[2] http://www.freesound.org/people/unfa/
+[3] http://creativecommons.org/licenses/by/3.0/
+[4] https://freesound.org/people/JapanYoshiTheGamer/sounds/361263/
+[5] https://freesound.org/people/JapanYoshiTheGamer/
+[6] https://creativecommons.org/publicdomain/zero/1.0/
+

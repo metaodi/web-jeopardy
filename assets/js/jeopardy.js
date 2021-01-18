@@ -68,5 +68,10 @@ $(document).on('click', '#answer-modal', function(){
 });
 
 $(document).on('click', '#question-continue', function(){
+  new Audio('assets/audio/correct_beep.wav').play();
   $("#question-modal").modal('hide')
+});
+$('#question-wrong').on('click', function(){
+  console.log("Wrong answer!");
+  new Audio('assets/audio/failjingle.ogg').play();
 });
