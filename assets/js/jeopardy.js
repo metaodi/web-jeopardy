@@ -75,3 +75,18 @@ $('#question-wrong').on('click', function(){
   console.log("Wrong answer!");
   new Audio('assets/audio/failjingle.ogg').play();
 });
+
+var wrongAudio;
+$(document).on('keydown', function(event){
+  console.log("Wrong answer!");
+  if ( event.which == 119 ) { // lowercase w
+    event.preventDefault();
+    if (wrongAudio) {
+      wrongAudio.pause();
+      wrongAudio.currentTime = 0;
+    } else {
+      wrongAudio = new Audio('assets/audio/failjingle.ogg').play();
+    }
+    wrongAudio.play();
+  }
+});
