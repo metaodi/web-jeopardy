@@ -1,7 +1,7 @@
 [
   {
-    "name": "Category 1",
-    "description": "Category 1 Description",
+    "name": "Zwischen Zürisee und hoher See",
+    "description": "Zürisee, Ostsee and beyond...",
     "questions": [
       {
         "label": "100",
@@ -26,8 +26,8 @@
     ]
   },
   {
-    "name": "Category 2",
-    "description": "Category 2 Description",
+    "name": "Fit, fitter, Biber-REFIT",
+    "description": "Lack, Gelcoat, Butyl, ...",
     "questions": [
       {
         "label": "100",
@@ -52,8 +52,8 @@
     ]
   },
   {
-    "name": "Category 3",
-    "description": "Category 3 Description",
+    "name": "Stinklangweiliger Bürojob",
+    "description": "Survival im Grossraumbüro",
     "questions": [
      {
         "label": "100",
@@ -78,8 +78,8 @@
     ]
   },
   {
-    "name": "Category 4",
-    "description": "Category 4 Description",
+    "name": "Harry fahr schon mal den Besen vor",
+    "description": "Zauberer, Hogwarts, magische Wesen",
     "questions": [
      {
         "label": "100",
