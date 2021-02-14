@@ -68,7 +68,6 @@ $(document).on('click', '#answer-modal', function(){
 });
 
 $(document).on('click', '#question-continue', function(){
-  new Audio('assets/audio/correct_beep.wav').play();
   $("#question-modal").modal('hide')
 });
 $('#question-wrong').on('click', function(){
@@ -76,17 +75,28 @@ $('#question-wrong').on('click', function(){
   new Audio('assets/audio/failjingle.ogg').play();
 });
 
-var wrongAudio;
-$(document).on('keydown', function(event){
-  console.log("Wrong answer!");
-  if ( event.which == 119 ) { // lowercase w
-    event.preventDefault();
-    if (wrongAudio) {
-      wrongAudio.pause();
-      wrongAudio.currentTime = 0;
-    } else {
-      wrongAudio = new Audio('assets/audio/failjingle.ogg').play();
-    }
-    wrongAudio.play();
+var audio = null;
+$(document).on('keydown', function(event) {
+  console.log(event.which);
+  if (audio) {
+    audio.pause();
+    audio.currentTime = 0;
+  }
+  switch (event.which) {
+    case 87: // lowercase w
+      audio = new Audio('assets/audio/failjingle.ogg');
+      audio.play();
+      break;
+    case 77: // lowercase m
+      audio = new Audio('assets/audio/think.mp3');
+      audio.play();
+      break;
+    case 67: // lowercase c
+      audio = new Audio('assets/audio/correct_beep.wav');
+      audio.play();
+      break;
+    case 81: // lowercase q
+      return;
+      break;
   }
 });
