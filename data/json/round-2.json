@@ -1,0 +1,127 @@
+[
+  {
+    "name": "Leibliches Wohl",
+    "description": "Essen + Trinken",
+    "questions": [
+      {
+        "label": "100",
+        "q": "Wie heisst das Zürisee-Schiff, dass wortwörtlich (zu) hohe Wellen schlug?",
+        "a": "data/answers/games/marie-1/see/answer_1.html"
+      },
+      {
+        "label": "200",
+        "q": "Marie geht häufig auf der Werdinsel Baden. Aber in welchem See liegt die Insel Werd?",
+        "a": "data/answers/games/marie-1/see/answer_2.html"
+      },
+      {
+        "label": "300",
+        "q": "In dieses deutsche Bundesland zieht es Marie zukünftig",
+        "a": "data/answers/games/marie-1/see/answer_3.html"
+      },
+      {
+        "label": "400",
+        "q": "Welcher grosse See grenzt an Russland, Kasachstan, Turkmenistan, Iran und Aserbaidschan?",
+        "a": "data/answers/games/marie-1/see/answer_4.html"
+      },
+      {
+        "label": "500",
+        "q": "Question 5",
+        "a": "data/answers/games/marie-1/see/answer_5.html"
+      }
+    ]
+  },
+  {
+    "name": "Werkzeuge im (Büro-)Alltag",
+    "description": "Outlook, SAS und Co.",
+    "questions": [
+      {
+        "label": "100",
+        "q": "So viele Abonnenten hat aktuell der YouTube Kanal von Marie",
+        "a": "data/answers/games/marie-1/refit/answer_1.html"
+      },
+      {
+        "label": "200",
+        "q": "In welchem Hafen steht Biber?",
+        "a": "data/answers/games/marie-1/refit/answer_2.html"
+      },
+      {
+        "label": "300",
+        "q": "Marie gibt Marc die Anweisung, dass sie die Schraube «Backbord achtern» anziehen möchte. Welche der 4 Schrauben ist das? <img src='/data/answers/games/marie-1/refit/question_3.png' width='560' height='315'/>",
+        "a": "data/answers/games/marie-1/refit/answer_3.html"
+      },
+      {
+        "label": "400",
+        "q": "Marie macht immer wieder «GFK- Arbeiten». Für was steht die Abkürzung GFK?",
+        "a": "data/answers/games/marie-1/refit/answer_4.html"
+      },
+      {
+        "label": "500",
+        "q": "Wie heisst das Wundermittel gegen Haarrisse, das auf keinen Fall an Bord fehlen darf?",
+        "a": "data/answers/games/marie-1/refit/answer_5.html"
+      }
+    ]
+  },
+  {
+    "name": "Ahoi!",
+    "description": "Segeln, segeln, segeln!",
+    "questions": [
+     {
+        "label": "100",
+        "q": "So heisst die Arbeitsbibel der Leute im Büro 004",
+        "a": "data/answers/games/marie-1/buero/answer_1.html"
+      },
+      {
+        "label": "200",
+        "q": "Dieser Gipfel der Glarner Alpen ist auch an der Napfgasse verewigt",
+        "a": "data/answers/games/marie-1/buero/answer_2.html"
+      },
+      {
+        "label": "300",
+        "q": "Dieser Mitarbeiterin/dieser Mitarbeiter von SSZ hat schon in den meisten verschiedenen Büros gearbeitet (nur aktive MA, keine Ehemaligen).",
+        "a": "data/answers/games/marie-1/buero/answer_3.html"
+      },
+      {
+        "label": "400",
+        "q": "Diese Person hat bei SSZ bis heute am meisten Anfragen gestellt",
+        "a": "data/answers/games/marie-1/buero/answer_4.html"
+      },
+      {
+        "label": "500",
+        "q": "Wie hiess der allererste Amtschef von SSZ?",
+        "a": "data/answers/games/marie-1/buero/answer_5.html"
+      }
+    ]
+  },
+  {
+    "name": "Know Your Meme",
+    "description": "ABC der Internetkultur",
+    "questions": [
+     {
+        "label": "100",
+        "q": "Der Deutsche Ausdruck für ein «Meme»",
+        "a": "data/answers/games/marie-1/harry_potter/answer_1.html"
+      },
+      {
+        "label": "200",
+        "q": "Auf diesen Namen hört Harry's Götti",
+        "a": "data/answers/games/marie-1/harry_potter/answer_2.html"
+      },
+      {
+        "label": "300",
+        "q": "Wie heisst das Haus der Weasleys?",
+        "a": "data/answers/games/marie-1/harry_potter/answer_3.html"
+      },
+      {
+        "label": "400",
+        "q": "Diese Herde von edlen magischen Tieren lebt im Verbotenen Wald.",
+        "a": "data/answers/games/marie-1/harry_potter/answer_4.html"
+      },
+
+      {
+        "label": "500",
+        "q": "Mit diesem Zauber kann ein Magier seinen Schutzgeist rufen.",
+        "a": "data/answers/games/marie-1/harry_potter/answer_5.html"
+      }
+    ]
+  }
+]
