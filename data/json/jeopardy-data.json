@@ -5,22 +5,22 @@
     "questions": [
       {
         "label": "100",
-        "q": "Question 1",
+        "q": "Wie heisst das Zürisee-Schiff, dass wortwörtlich (zu) hohe Wellen schlug?",
         "a": "data/answers/games/marie-1/see/answer_1.html"
       },
       {
         "label": "200",
-        "q": "Question 2",
+        "q": "Marie geht häufig auf der Werdinsel Baden. Aber in welchem See liegt die Insel Werd?",
         "a": "data/answers/games/marie-1/see/answer_2.html"
       },
       {
         "label": "300",
-        "q": "Question 3",
+        "q": "In dieses deutsche Bundesland zieht es Marie zukünftig",
         "a": "data/answers/games/marie-1/see/answer_3.html"
       },
       {
         "label": "400",
-        "q": "Question 4",
+        "q": "Welcher grosse See grenzt an Russland, Kasachstan, Turkmenistan, Iran und Aserbaidschan?",
         "a": "data/answers/games/marie-1/see/answer_4.html"
       },
       {
@@ -103,22 +103,23 @@
       },
       {
         "label": "200",
-        "q": "Question 2",
+        "q": "Auf diesen Namen hört Harry's Götti",
         "a": "data/answers/games/marie-1/harry_potter/answer_2.html"
       },
       {
         "label": "300",
-        "q": "Diese Herde von edlen magischen Tieren lebt im Verbotenen Wald.",
+        "q": "Wie heisst das Haus der Weasleys?",
         "a": "data/answers/games/marie-1/harry_potter/answer_3.html"
       },
       {
         "label": "400",
-        "q": "Question 4",
+        "q": "Diese Herde von edlen magischen Tieren lebt im Verbotenen Wald.",
         "a": "data/answers/games/marie-1/harry_potter/answer_4.html"
       },
+      
       {
         "label": "500",
-        "q": "Question 5",
+        "q": "Mit diesem Zauber kann ein Magier seinen Schutzgeist rufen.",
         "a": "data/answers/games/marie-1/harry_potter/answer_5.html"
       }
     ]
