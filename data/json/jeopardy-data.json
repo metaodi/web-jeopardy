@@ -67,27 +67,27 @@
     "questions": [
      {
         "label": "100",
-        "q": "Question 1",
+        "q": "So heisst die Arbeitsbibel der Leute im Büro 004",
         "a": "data/answers/games/marie-1/buero/answer_1.html"
       },
       {
         "label": "200",
-        "q": "Question 2",
+        "q": "Dieser Gipfel der Glarner Alpen ist auch an der Napfgasse verewigt",
         "a": "data/answers/games/marie-1/buero/answer_2.html"
       },
       {
         "label": "300",
-        "q": "Question 3",
+        "q": "Dieser Mitarbeiterin/dieser Mitarbeiter von SSZ hat schon in den meisten verschiedenen Büros gearbeitet (nur aktive MA, keine Ehemaligen).",
         "a": "data/answers/games/marie-1/buero/answer_3.html"
       },
       {
         "label": "400",
-        "q": "Question 4",
+        "q": "Diese Person hat bei SSZ bis heute am meisten Anfragen gestellt",
         "a": "data/answers/games/marie-1/buero/answer_4.html"
       },
       {
         "label": "500",
-        "q": "Question 5",
+        "q": "Wie hiess der allererste Amtschef von SSZ?",
         "a": "data/answers/games/marie-1/buero/answer_5.html"
       }
     ]
