@@ -36,27 +36,27 @@
     "questions": [
       {
         "label": "100",
-        "q": "Question 1",
+        "q": "So viele Abonnenten hat aktuell der YouTube Kanal von Marie",
         "a": "data/answers/games/marie-1/refit/answer_1.html"
       },
       {
         "label": "200",
-        "q": "Question 2",
+        "q": "In welchem Hafen steht Biber?",
         "a": "data/answers/games/marie-1/refit/answer_2.html"
       },
       {
         "label": "300",
-        "q": "Question 3",
+        "q": "Marie gibt Marc die Anweisung, dass sie die Schraube «Backbord achtern» anziehen möchte. Welche der 4 Schrauben ist das? <img src='/data/answers/games/marie-1/refit/question_3.png' width='560' height='315'/>",
         "a": "data/answers/games/marie-1/refit/answer_3.html"
       },
       {
         "label": "400",
-        "q": "Question 4",
+        "q": "Marie macht immer wieder «GFK- Arbeiten». Für was steht die Abkürzung GFK?",
         "a": "data/answers/games/marie-1/refit/answer_4.html"
       },
       {
         "label": "500",
-        "q": "Question 5",
+        "q": "Wie heisst das Wundermittel gegen Haarrisse, das auf keinen Fall an Bord fehlen darf?",
         "a": "data/answers/games/marie-1/refit/answer_5.html"
       }
     ]
