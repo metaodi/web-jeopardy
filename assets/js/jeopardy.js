@@ -24,7 +24,7 @@ $.getJSON($.urlParam('file') || 'data/json/jeopardy-data.json')
       category_div.fadeIn();
 
       // Set lightning round class.
-      if (id < 3) {
+      if (id < 5) {
         category_div.addClass('category__normal');
       } else {
         category_div.addClass('category__lightning');
@@ -84,10 +84,18 @@ $(document).on('keydown', function(event) {
   }
   switch (event.which) {
     case 87: // lowercase w
+	  if (audio) {
+	    audio = null;
+		return;
+	  }
       audio = new Audio('assets/audio/failjingle.ogg');
       audio.play();
       break;
     case 77: // lowercase m
+	  if (audio) {
+	    audio = null;
+		return;
+	  }
       audio = new Audio('assets/audio/think.mp3');
       audio.play();
       break;
