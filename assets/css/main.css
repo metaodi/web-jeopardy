@@ -8,6 +8,10 @@ body {
     font-family: 'Maven Pro', sans-serif;
 }
 
+footer {
+	font-size: 10px;
+}
+
 .navbar-header {
     color: #fff;
     background: #019CDB;
