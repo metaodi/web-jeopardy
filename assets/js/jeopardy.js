@@ -103,6 +103,10 @@ $(document).on('keydown', function(event) {
       audio = new Audio('assets/audio/correct_beep.wav');
       audio.play();
       break;
+    case 66: // lowercase b
+      audio = new Audio('assets/audio/buzzer.wav');
+      audio.play();
+      break;
     case 81: // lowercase q
       return;
       break;
