@@ -5,90 +5,90 @@
     "questions": [
       {
         "label": "100",
-        "q": "Wie heisst das Zürisee-Schiff, dass wortwörtlich (zu) hohe Wellen schlug?",
-        "a": "data/answers/games/marie-1/see/answer_1.html"
+        "q": "Wie viele Bowls hat(te 😱) B.Good im Angebot?",
+        "a": "data/answers/games/marie-2/essen/answer_1.html"
       },
       {
         "label": "200",
-        "q": "Marie geht häufig auf der Werdinsel Baden. Aber in welchem See liegt die Insel Werd?",
-        "a": "data/answers/games/marie-1/see/answer_2.html"
+        "q": " Tantanmen und Miso sind zwei bekannte Vertreter dieser Speise.",
+        "a": "data/answers/games/marie-2/essen/answer_2.html"
       },
       {
         "label": "300",
-        "q": "In dieses deutsche Bundesland zieht es Marie zukünftig",
-        "a": "data/answers/games/marie-1/see/answer_3.html"
+        "q": "Welche Glacé-Sorte von Hasta Ice Cream dürfte bei argentinischen Touristen besonders gut ankommen?",
+        "a": "data/answers/games/marie-2/essen/answer_3.html"
       },
       {
         "label": "400",
-        "q": "Welcher grosse See grenzt an Russland, Kasachstan, Turkmenistan, Iran und Aserbaidschan?",
-        "a": "data/answers/games/marie-1/see/answer_4.html"
+        "q": "Welche Zutaten braucht es für die Herstellung von Kombucha neben Kombucha-Pilz, Tee und Wasser noch?",
+        "a": "data/answers/games/marie-2/essen/answer_4.html"
       },
       {
         "label": "500",
-        "q": "Question 5",
-        "a": "data/answers/games/marie-1/see/answer_5.html"
+        "q": "Wo gibt es die beste glutenfreie Pizza in Zürich?",
+        "a": "data/answers/games/marie-2/essen/answer_5.html"
       }
     ]
   },
   {
-    "name": "Werkzeuge im (Büro-)Alltag",
-    "description": "Outlook, SAS und Co.",
+    "name": "Alltags-Werkzeuge",
+    "description": "Outlook, cobra, SAS und Co.",
     "questions": [
       {
         "label": "100",
-        "q": "So viele Abonnenten hat aktuell der YouTube Kanal von Marie",
-        "a": "data/answers/games/marie-1/refit/answer_1.html"
+        "q": "Mit diesem Shortcut kann man im Schlangen-Tool die ausgewählte Adresse recherchieren",
+        "a": "data/answers/games/marie-2/tools/answer_1.html"
       },
       {
         "label": "200",
-        "q": "In welchem Hafen steht Biber?",
-        "a": "data/answers/games/marie-1/refit/answer_2.html"
+        "q": "Wofür steht die Variable AnzBestWir?",
+        "a": "data/answers/games/marie-2/tools/answer_2.html"
       },
       {
         "label": "300",
-        "q": "Marie gibt Marc die Anweisung, dass sie die Schraube «Backbord achtern» anziehen möchte. Welche der 4 Schrauben ist das? <img src='/data/answers/games/marie-1/refit/question_3.png' width='560' height='315'/>",
-        "a": "data/answers/games/marie-1/refit/answer_3.html"
+        "q": "Wie heisst diese Figur aus dem Informationssicherheitsvideo von SSZ?<br/><img src='/data/answers/games/marie-2/tools/question_3.png' width='600'>",
+        "a": "data/answers/games/marie-2/tools/answer_3.html"
       },
       {
         "label": "400",
-        "q": "Marie macht immer wieder «GFK- Arbeiten». Für was steht die Abkürzung GFK?",
-        "a": "data/answers/games/marie-1/refit/answer_4.html"
+        "q": "Wofür steht die Abkürzung ELO?",
+        "a": "data/answers/games/marie-2/tools/answer_4.html"
       },
       {
         "label": "500",
-        "q": "Wie heisst das Wundermittel gegen Haarrisse, das auf keinen Fall an Bord fehlen darf?",
-        "a": "data/answers/games/marie-1/refit/answer_5.html"
+        "q": "Welches Datum ist das interne SAS-Startdatum, also der Tag Null in der SAS-Zeitrechnung?",
+        "a": "data/answers/games/marie-2/tools/answer_5.html"
       }
     ]
   },
   {
     "name": "Ahoi!",
-    "description": "Segeln, segeln, segeln!",
+    "description": "Segeln, Boote, Wasser",
     "questions": [
      {
         "label": "100",
-        "q": "So heisst die Arbeitsbibel der Leute im Büro 004",
-        "a": "data/answers/games/marie-1/buero/answer_1.html"
+        "q": "Bei dieser rheinischen Messe wird das Boot zelebriert.",
+        "a": "data/answers/games/marie-2/ahoi/answer_1.html"
       },
       {
         "label": "200",
-        "q": "Dieser Gipfel der Glarner Alpen ist auch an der Napfgasse verewigt",
-        "a": "data/answers/games/marie-1/buero/answer_2.html"
+        "q": "Das wäre das «perfekte Schiff» für eine Weltumrundung (gemäss einer bekannten YouTuberin)",
+        "a": "data/answers/games/marie-2/ahoi/answer_2.html"
       },
       {
         "label": "300",
-        "q": "Dieser Mitarbeiterin/dieser Mitarbeiter von SSZ hat schon in den meisten verschiedenen Büros gearbeitet (nur aktive MA, keine Ehemaligen).",
-        "a": "data/answers/games/marie-1/buero/answer_3.html"
+        "q": "Wer oder was sind Dirk, Grossfall und Spifall?",
+        "a": "data/answers/games/marie-2/ahoi/answer_3.html"
       },
       {
         "label": "400",
-        "q": "Diese Person hat bei SSZ bis heute am meisten Anfragen gestellt",
-        "a": "data/answers/games/marie-1/buero/answer_4.html"
+        "q": "Wer oder was ist ein Pinnenpilot?",
+        "a": "data/answers/games/marie-2/ahoi/answer_4.html"
       },
       {
         "label": "500",
-        "q": "Wie hiess der allererste Amtschef von SSZ?",
-        "a": "data/answers/games/marie-1/buero/answer_5.html"
+        "q": "Wie viel ist eine Seemeile oder Nautische Meile in Meter?",
+        "a": "data/answers/games/marie-2/ahoi/answer_5.html"
       }
     ]
   },
@@ -98,29 +98,29 @@
     "questions": [
      {
         "label": "100",
-        "q": "Der Deutsche Ausdruck für ein «Meme»",
-        "a": "data/answers/games/marie-1/harry_potter/answer_1.html"
+        "q": "Deutscher Ausdruck für «Meme»",
+        "a": "data/answers/games/marie-2/meme/answer_1.html"
       },
       {
         "label": "200",
-        "q": "Auf diesen Namen hört Harry's Götti",
-        "a": "data/answers/games/marie-1/harry_potter/answer_2.html"
+        "q": "Aus welcher Serie stammt dieses Bild?<br/><img src='/data/answers/games/marie-2/meme/question_2.jpg' width='600'>",
+        "a": "data/answers/games/marie-2/meme/answer_2.html"
       },
       {
         "label": "300",
-        "q": "Wie heisst das Haus der Weasleys?",
-        "a": "data/answers/games/marie-1/harry_potter/answer_3.html"
+        "q": "Welchen Justin Bieber Song hat «Overly Attached Girlfriend» parodiert?<br/><img src='/data/answers/games/marie-2/meme/question_3.jpg' width='600'>",
+        "a": "data/answers/games/marie-2/meme/answer_3.html"
       },
       {
         "label": "400",
-        "q": "Diese Herde von edlen magischen Tieren lebt im Verbotenen Wald.",
-        "a": "data/answers/games/marie-1/harry_potter/answer_4.html"
+        "q": "Wie heisst dieses Wesen?<br/><img src='/data/answers/games/marie-2/meme/question_4.jpg' width='600'>",
+        "q": "Wie heisst dieses Wesen?<br/><img src='/data/answers/games/marie-2/meme/question_4.jpg' width='600'>",
+        "a": "data/answers/games/marie-2/meme/answer_4.html"
       },
-
       {
         "label": "500",
-        "q": "Mit diesem Zauber kann ein Magier seinen Schutzgeist rufen.",
-        "a": "data/answers/games/marie-1/harry_potter/answer_5.html"
+        "q": "Wer oder was sind Stonks?",
+        "a": "data/answers/games/marie-2/meme/answer_5.html"
       }
     ]
   }
